@@ -1,0 +1,250 @@
+.courses{
+    width: 100%;
+    height: 1151px;
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    margin: 60px auto;
+   
+
+
+     .header__courses{
+        display: block;
+        width: 100%;
+        height: 150px;
+
+
+        h2{
+            width:fit-content;
+            height: 70px;
+         
+            font-family: relewayB;
+            font-size: 60px;
+            font-weight: 900;
+            color: white;
+            margin: 0 auto;
+            padding-top: 43px;
+
+        }
+    }
+
+      .game{
+        display: block;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 418px;
+        margin: 0 auto;
+       
+        margin-top: 20px;
+
+        .right{
+            width:413px;
+            height: 380px;
+            border-radius: 24px;
+            background-color: white;
+            margin: 0 auto;
+            
+           
+
+          
+
+            .image{
+                padding: 0 39px ;
+                
+ 
+
+
+                img{
+                    object-fit: cover;
+                    width: 349px;
+                    height: 240px;
+                }
+            }
+
+            .note{
+                width: 352px;
+                height: 72px;
+              
+                margin: 10px auto;
+                display: flex;
+                
+                justify-content: space-between;
+                gap: 10px;
+
+                p{
+                    font-family: relewayB;
+                    font-size: 30px;
+                    font-weight: 900;
+                    margin-top: 5px;
+                    width: 60%;
+
+
+                }
+
+                .time{
+                    display: flex;
+                    align-items: center;
+                    
+                   
+                  
+
+                    h3{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 3px;
+                        font-size: 16px;
+                        font-weight: 900;
+                        font-family: relewayB;
+                        
+                    }
+
+                }
+            }
+
+            .hl{
+                width: 352px;
+                height: 8px;
+                margin: 0 auto;
+                display: flex;
+                border-radius: 24px;
+                background: #023047;
+                position: relative;
+                top: 10%;
+
+
+
+            }
+
+
+        }
+      
+
+        
+
+      
+        .left{
+            width:416px;
+            height: 380px;
+            border-radius: 24px;
+            background-color: white;
+            margin-top: 70px;
+            margin: 70px auto;
+           
+
+            .image{
+                padding: 0 39px ;
+               
+
+                img{
+                    object-fit: cover;
+                    width: 349px;
+                    height: 240px;
+                   
+                }
+            }
+
+            .note{
+                width: 352px;
+                height: 72px;
+             
+              
+                margin: 10px auto;
+                display: flex;
+                
+                justify-content: space-between;
+                
+
+                p{
+                    font-family: relewayB;
+                    font-size: 30px;
+                    font-weight: 900;
+                    margin-top: 5px;
+                  
+
+
+                }
+
+                .time{
+                    display: flex;
+                    align-items: center;
+                   
+                    
+                   
+                  
+
+                    p{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 3px;
+                        width: fit-content;
+                        height: fit-content;
+                        font-size: 16px;
+                        font-weight: 900;
+                        font-family: relewayB;
+                        
+                        
+                    }
+
+                }
+            }
+
+            .hl{
+                width: 352px;
+                height: 8px;
+                margin: 0 auto;
+                display: flex;
+                border-radius: 24px;
+                background: #023047;
+                position: relative;
+                top: 10%;
+
+
+
+            }
+
+
+        }
+      
+
+        
+
+      
+     
+      }
+
+    
+      .about{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 40%;
+
+      
+      button{
+        width:168px;
+        height: 59px;
+        position: relative;
+        left: 45%;
+        top: -30px;
+        padding: 16px 32px 16px 32px;
+        border-radius: 24px;
+        border: unset;
+        background-color: var(--orange);
+        margin-top: 50px ;
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+
+
+        
+        
+      }}
+    }
+
+      
+
+
+

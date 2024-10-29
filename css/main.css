@@ -1,0 +1,13 @@
+@import "./setting.css";
+
+@import "./mobile/mobile_main.css" only screen and (min-width:417px);
+@import "./tablet/tablet_main.css" only screen and (min-width:854px);
+@import "./dekstop/dekstop-main.css" only screen and (min-width:1366px);
+
+
+
+
+
+
+
+

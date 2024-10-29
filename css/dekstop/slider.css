@@ -1,0 +1,198 @@
+.survey{
+    width: 83%;
+    height: 546px;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .survey__left{
+        width: 42%;
+        height: inherit;
+        position: relative;
+        margin: 0;
+        .vertical{
+            width: 28px;
+            height: inherit;
+            border-radius: 24px;
+            background-color: #023047;
+            position: absolute;
+            left: 87px;
+        }
+        .survey__left__top{
+            width: 442px;
+            height:auto;
+            border-radius: 24px;
+            position: relative;
+            top: 35px;
+            background-color: white;
+            box-shadow: 0 9px 36px 0 #00000033;
+           .profile___header{
+            width: inherit;
+            height: 102px;
+            background-color: #6F7DFB;
+            border-radius: 24px;
+            padding: 24px 32px;
+            p{
+                font-family: releway;
+                font-size: 18px;
+                font-weight: 900;
+                line-height: 27px;
+                
+
+            }
+           } 
+
+           .profile___footer{
+            width: inherit;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .profile___footer__left{
+                
+                h3{
+                font-family: relewayB;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 28.8px;
+                color: #023047;
+
+                }
+
+                p{
+                    font-family: releway;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                    color: #023047;
+                    margin-top: 8px;
+                }
+            }
+
+            .profile___footer__right{
+                margin-top: -12px;
+                img{
+                    width: 120px;
+                    height: 120px;
+                    object-fit: cover;
+                    
+                }
+            }
+           }
+        }
+        .survey__left__bottom{
+            width: 442px;
+            height:auto;
+            border-radius: 24px;
+            position: relative;
+            box-shadow: 0 9px 36px 0 #00000033;
+            top: 90px;
+            background-color: white;
+            left: 32px;
+
+           .profile___header{
+
+            width: inherit;
+            height: 75px;
+            background-color: var(--orange);
+            border-radius: 24px;
+            padding: 24px 32px;
+            p{
+                font-family: releway;
+                font-size: 18px;
+                font-weight: 900;
+                line-height: 27px;
+                
+
+            }
+           } 
+
+           .profile___footer{
+            width: inherit;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .profile___footer__left{
+                
+                h3{
+                font-family: relewayB;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 28.8px;
+                color: #023047;
+
+                }
+
+                p{
+                    font-family: releway;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                    color: #023047;
+                    margin-top: 8px;
+                }
+            }
+
+            .profile___footer__right{
+                margin-top: -12px;
+                img{
+                    width: 120px;
+                    height: 120px;
+                    object-fit: cover;
+                    
+                }
+            }
+           }
+        }
+
+      
+    }
+
+    .survey__right{
+        width: 49%;
+        height: 377px;
+        
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-left: 0;
+       
+        
+
+        h2{
+            font-family: relewayB;
+            font-size: 60px;
+            font-weight: 900;
+            line-height: 72px;
+            color: #023047;
+        }
+        p{
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+            color: #023047;
+            margin-top: 16px;
+        }
+
+        button{
+            width:167px ;
+            height: 59px;
+            border-radius: 24px;
+            border: unset;
+            background-color: #DA722C;
+            margin-top: 30px;
+            a{
+                font-family: poppins;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 27px;
+                text-decoration: none;
+                color: white;
+
+
+            }
+        }
+    }
+}
